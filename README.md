@@ -1,5 +1,4 @@
-# YoutubeMerch_Website
-
+<img src="https://raw.githubusercontent.com/WestwardSky8392/Youtube_Website/main/MerchHeader.png"/>
 In this project, we will be creating a website that will advirtize merchdise for a local Youtuber.
 
 <ul>
