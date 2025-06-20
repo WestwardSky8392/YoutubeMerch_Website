@@ -7,6 +7,6 @@ In this project we will be creating a website that will advirtize merchdise for 
     <li> Have a secure and operational database</li>
   </ul>
 <h1>Frontend</h1>
-   <img src="https://github.com/WestwardSky8392/YoutubeMerch_Website/client/public/src/assets/merch_images/DSCF1589.jpg?raw=true" width="1000" height="400"/>
+  
 <h1>Backend</h1>
 
