@@ -7,5 +7,6 @@ In this project we will be creating a website that will advirtize merchdise for 
     <li> Have a secure and operational database</li>
   </ul>
 <h1>Frontend</h1>
-
+  
 <h1>Backend</h1>
+
