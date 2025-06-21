@@ -5,17 +5,19 @@ body {
 }
 
 #header{
-  opacity: 0;
-  transition: opacity 5s ease-in-out;
   text-align: center;
   padding-top: 200px;
   height: fit-content;
   color: white;
   font-size: 80px;
-  padding-bottom: 550px;
+  padding-bottom: 490px;
   font-family: 'Permanent Marker';
 }
-
+#title{
+  opacity: 0;
+  transition: opacity 5s ease-in-out;
+  text-align: center;
+}
 #content{
   text-align: center;
   background-color: rgba(255, 255, 255, 0.422);
@@ -24,12 +26,45 @@ body {
   padding-bottom: 100px;
 }
 
-#shop{
+iframe{
+  padding-top: 20px;
+  display: block;
+  margin: auto;
+  border-color: transparent;
+}
+
+
+#socials{
   text-align: center;
   background-color: rgba(255, 255, 255, 0.422);
   height: fit-content;
   padding-top: 200px;
   padding-bottom: 100px;
+}
+
+.container {
+  padding-top: 70px;
+  gap: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center
+}
+
+.container > div {
+  background-color: transparent;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+#shop{
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.422);
+  height: fit-content;
+  padding-top: 200px;
+  padding-bottom: 500px;
 }
 
 p1{
@@ -39,9 +74,7 @@ p1{
   font-size: 40px;
 }
 
- iframe{
-   padding-top: 20px;
-   display: block;
-   margin: auto;
-   border-color: transparent;
- }
+#footer{
+  padding-top: 300px;
+  background-color: rgb(46, 46, 46);
+}
