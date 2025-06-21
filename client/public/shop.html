@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+    <title>Shop - TGM.com</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="nav-btn">Home</a>
+        <a href="shop.html" class="nav-btn active">Shop</a>
+    </nav>
+    <div class="shop-banner">
+        <img src="websImages/ShopImages/ShopBanner.png" alt="Shop Banner">
+    </div>
+    <div class="merch-feature">
+        <div class="merch-gallery">
+            <button class="arrow left" onclick="prevImage()">&#8592;</button>
+            <img id="merch-preview" src="src/assets/merch_images/DSCF1735.jpg" alt="TGM Shirt Preview">
+            <button class="arrow right" onclick="nextImage()">&#8594;</button>
+        </div>
+        <div class="merch-info">
+            <h2>TGM Shirt</h2>
+            <div class="color-options">
+                <span>Color:</span>
+                <button class="color-btn white" onclick="selectColor('white')"></button>
+                <button class="color-btn purple" onclick="selectColor('purple')"></button>
+            </div>
+            <div class="size-options">
+                <span>Size:</span>
+                <button class="size-btn" onclick="selectSize('XS')">XS</button>
+                <button class="size-btn" onclick="selectSize('S')">S</button>
+                <button class="size-btn" onclick="selectSize('M')">M</button>
+                <button class="size-btn" onclick="selectSize('L')">L</button>
+                <button class="size-btn" onclick="selectSize('XL')">XL</button>
+            </div>
+            <button class="buy-btn">Buy</button>
+            <div class="reviews">
+                <h3>Reviews</h3>
+                <p>★★★★★ - "Super comfy and stylish!"</p>
+                <p>★★★★☆ - "Love the color options."</p>
+            </div>
+        </div>
+    </div>
+    <script src="shop.js"></script>
+</body>
+</html>
