@@ -71,3 +71,20 @@ document.addEventListener('DOMContentLoaded', () => {
     gallery.addEventListener('mouseleave', startAutoCycle);
   }
 });
+
+function popMessage() {
+  alert("Your message here.");
+}
+
+const showAlertBtn = document.getElementById('buy-btn');
+const customAlert = document.getElementById('customAlert');
+const confirmBtn = document.getElementById('confirmBtn')
+
+showAlertBtn.addEventListener('click', function(){
+  customAlert.style.display = 'flex';
+});
+
+confirmBtn.addEventListener('click',function(){
+  customAlert.style.display = 'none';
+});
+
