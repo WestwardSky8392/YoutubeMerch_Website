@@ -72,10 +72,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-function popMessage() {
-  alert("Your message here.");
-}
-
 const showAlertBtn = document.getElementById('buy-btn');
 const customAlert = document.getElementById('customAlert');
 const confirmBtn = document.getElementById('confirmBtn')
