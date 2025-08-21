@@ -362,13 +362,14 @@ p1{
 .alert-box{
   display: none;
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  top: 120px;
+  margin-left: -470px;
+  width: 800px;
+  height: 500px;
   background-color: #444;
   justify-content: center;
   align-items: center;
+  border-radius: 25px;
 }
 
 .alert-content{
@@ -381,22 +382,31 @@ p1{
 }
 
 .alert-content h2{
-  font-size: 22px;
+  font-size: 25px;
   margin-bottom:10px;
-  color: #333;
+  font-family: 'Permanent Marker';
+  color: white;
 }
 
-.alert-content p{
-  font-size: 16px;
+#alert-content-font{
+  font-family: 'Permanent Marker';
+  font-size: 20px;
   margin-bottom: 20px;
-  color: #666;
+  color: white;
 }
 
 .alert-box button{
-  padding: 10px 20px;
-  background-color: aqua;
+  padding: 10px 30px;
+  background-color: rgb(0, 255, 255);
   color :#fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin-left: 260px;
+}
+
+span{
+  font-family: 'Permanent Marker';
+  color: white;
+  font-size: 20px;
 }
